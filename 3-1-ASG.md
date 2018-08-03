@@ -62,7 +62,7 @@ In the same panel, click on *Advanced Details*. In the *User Data* field, paste 
 ```
 #!/bin/bash
 yum install -y mysql php php-mysql httpd
-aws s3 cp s3://devopsgirls-training/firstname.lastname-wordpress.tgz /var/www/wordpress.tgz --no-sign-request
+aws s3 cp s3://codelikeagirl-training/firstname.lastname-wordpress.tgz /var/www/wordpress.tgz --no-sign-request
 tar xvfz /var/www/wordpress.tgz -C /var/www/html/
 chown -R apache /var/www/html
 service httpd start
@@ -246,8 +246,6 @@ This will point you to a page where you can upload your template file. Click on 
 ### 27.) Set the Stack Name and Parameters
 
 Set the `DevopsGirlsUser` parameter. Use your `firstname.lastname` format for this.
-
-Change `WordpressS3Bucket` to the name of your S3 bucket name - for example `devopsgirls-training-2` or `devopsgirls-training-3` depending on which account you were setup in.
 
 ### 28.) Review, and click on IAM resources
 

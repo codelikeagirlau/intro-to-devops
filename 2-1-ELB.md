@@ -122,10 +122,10 @@ sudo rm wp-config.php
 Now, open your browser and paste the *DNS Name* that you had in Step 11. This should show you an installation page. Proceed with the installation, but when you get to the panel that asks you for your database details, put in the following:
 
 ```
-Database Name: devopsgirlsdb
-Database User: devopsgirls
-Database Password: devopsgirlsrds
-Database Host: rds.devopsgirls.internal
+Database Name: codelikeagirlsdb
+Database User: codelikeagirl
+Database Password: codelikeagirlrds
+Database Host: rds.codelikeagirl.internal
 Database Prefix: firstname_
 ```
 
@@ -160,19 +160,13 @@ S3 is an object store - essentially allowing you to upload files to a directory 
 
 ```
 aws configure set default.s3.multipart_threshold 64MB
-aws s3 cp ~/firstname.lastname-wordpress.tgz s3://devopsgirls-training/firstname.lastname-wordpress.tgz --no-sign-request
+aws s3 cp ~/firstname.lastname-wordpress.tgz s3://codelikeagirl-training/firstname.lastname-wordpress.tgz --no-sign-request
 ```
 
-Depending on the AWS login that you used ( `devopsgirls`, `devopsgirls-2`, or `devopsgirls-3`, you may need to change the S3 bucket to upload to. `devopsgirls` accounts need to use `devopsgirls-training`, `devopsgirls-2` accounts need to use `devopsgirls-training-2`, and `devopsgirls-3` accounts need to use `devopsgirls-training-3`. For example, for a `devopsgirls-2` account:
-
-```
-aws configure set default.s3.multipart_threshold 64MB
-aws s3 cp ~/firstname.lastname-wordpress.tgz s3://devopsgirls-training-2/firstname.lastname-wordpress.tgz --no-sign-request
-```
 
 ### 17.) Confirm the file exists using the web console:
 
-Go to *Services > S3*. Click on the bucket called *devopsgirls-training*. If you uploaded your file correctly, then it should be there!
+Go to *Services > S3*. Click on the bucket called *codelikeagirl-training*. If you uploaded your file correctly, then it should be there!
 
 ![Image][2-1-12-s3]
 
@@ -205,13 +199,13 @@ On the *Advanced Details* tab of *Step 3: Configure Instance Details*, paste the
 #!/bin/bash
 yum install -y mysql php php-mysql httpd
 aws configure set default.s3.multipart_threshold 64MB
-aws s3 cp s3://devopsgirls-training/firstname.lastname-wordpress.tgz /var/www/wordpress.tgz --no-sign-request
+aws s3 cp s3://codelikeagirl-training/firstname.lastname-wordpress.tgz /var/www/wordpress.tgz --no-sign-request
 tar xvfz /var/www/wordpress.tgz -C /var/www/html/
 chown -R apache /var/www/html/
 service httpd start
 ```
 
-Again, make sure that you change the S3 bucket name (`devopsgirls-training`, `devopsgirls-training-2`, or `devopsgirls-training-3`). Your configuration should look like this:
+Your configuration should look like this:
 
 ![Image][2-1-15-userdata]
 
