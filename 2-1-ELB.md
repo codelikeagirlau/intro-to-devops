@@ -155,12 +155,16 @@ With this command, changing directories to */var/www/html* - where Wordpress is 
 
 ### 16.) Upload the file to S3
 
-S3 is an object store - essentially allowing you to upload files to a directory that you can share either within the account, or to the world. We do this by running the following commands - one to set the maximum size of the upload, and one to *copy* the file to S3 ( *s3 cp* ).
-
-
 ```
 aws configure set default.s3.multipart_threshold 64MB
 aws s3 cp ~/firstname.lastname-wordpress.tgz s3://codelikeagirl-training/firstname.lastname-wordpress.tgz --no-sign-request
+```
+
+Depending on the AWS login that you used ( `codelikeagirl`, `codelikeagirl-2`, or `codelikeagirl-3`, you may need to change the S3 bucket to upload to. `codelikeagirl` accounts need to use `codelikeagirl-training`, `codelikeagirl-2` accounts need to use `codelikeagirl-training-2`, and `codelikeagirl-3` accounts need to use `codelikeagirl-training-3`. For example, for a `codelikeagirl-2` account:
+
+```
+aws configure set default.s3.multipart_threshold 64MB
+aws s3 cp ~/firstname.lastname-wordpress.tgz s3://codelikeagirl-training-2/firstname.lastname-wordpress.tgz --no-sign-request
 ```
 
 
@@ -205,7 +209,7 @@ chown -R apache /var/www/html/
 service httpd start
 ```
 
-Your configuration should look like this:
+Again, make sure that you change the S3 bucket name (`codelikeagirl-training`, `codelikeagirl-training-2`, or `codelikeagirl-training-3`). Your configuration should look like this:
 
 ![Image][2-1-15-userdata]
 
