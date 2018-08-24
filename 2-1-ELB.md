@@ -275,23 +275,23 @@ Congratulations! You now have a more durable service configuration.
 
 
 
-[2-1-1-create]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-1-create.png
-[2-1-10-details]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-10-details.png
-[2-1-11-wpsql]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-11-wpsql.png
-[2-1-12-s3]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-12-s3.png
-[2-1-13-launchinstance]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-13-launchinstance.png
-[2-1-14-ami]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-14-ami.png
-[2-1-15-userdata]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-15-userdata.png
-[2-1-16-tags]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-16-tags.png
-[2-1-17-elbsg]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-17-elbsg.png
-[2-1-18-instances]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-18-instances.png
-[2-1-19-addinstance]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-19-addinstance.png
-[2-1-2-classic]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-2-classic.png
-[2-1-20-blog]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-20-blog.png
-[2-1-3-lbname]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-3-lbname.png
-[2-1-4-listeners]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-4-listeners.png
-[2-1-5-secgroups]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-5-secgroups.png
-[2-1-6-healthchecks]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-6-healthchecks.png
-[2-1-7-instances]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-7-instances.png
-[2-1-8-tags]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-8-tags.png
-[2-1-9-review]: https://raw.githubusercontent.com/DevOpsGirls/devopsgirls-bootcamp/master/images/2-1-ELB/2-1-9-review.png
+[2-1-1-create]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-1-create.png
+[2-1-10-details]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-10-details.png
+[2-1-11-wpsql]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-11-wpsql.png
+[2-1-12-s3]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-12-s3.png
+[2-1-13-launchinstance]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-13-launchinstance.png
+[2-1-14-ami]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-14-ami.png
+[2-1-15-userdata]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-15-userdata.png
+[2-1-16-tags]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-16-tags.png
+[2-1-17-elbsg]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-17-elbsg.png
+[2-1-18-instances]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-18-instances.png
+[2-1-19-addinstance]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-19-addinstance.png
+[2-1-2-classic]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-2-classic.png
+[2-1-20-blog]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-20-blog.png
+[2-1-3-lbname]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-3-lbname.png
+[2-1-4-listeners]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-4-listeners.png
+[2-1-5-secgroups]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-5-secgroups.png
+[2-1-6-healthchecks]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-6-healthchecks.png
+[2-1-7-instances]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-7-instances.png
+[2-1-8-tags]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-8-tags.png
+[2-1-9-review]: https://raw.githubusercontent.com/codelikeagirlau/intro-to-devops/master/images/2-1-ELB/2-1-9-review.png

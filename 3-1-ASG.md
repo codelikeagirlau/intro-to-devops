@@ -51,10 +51,6 @@ We will configure your Launch Configuration in the same way we configure your in
 
 We'll then set your Launch Configuration details. Name your Launch Config *myname-launchconfig*.
 
-![Image][3-1-3-iamrole]
-
-Note that this IAM role only allows read-only access to the contents of the S3 bucket you've placed your Wordpress package in - and nothing else. 
-
 ### 4.) Set Advanced Details
 
 In the same panel, click on *Advanced Details*. In the *User Data* field, paste the following in:
